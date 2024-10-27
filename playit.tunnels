@@ -1,0 +1,106 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "forum-induced.gl.joinmc.link",
+          "assigned_srv": "forum-induced.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "458c332b-0338-4025-8703-e2f907fe6d14",
+          "ip_hostname": "23.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 35963,
+          "port_start": 35962,
+          "region": "global",
+          "static_ip4": "147.185.221.23",
+          "tunnel_ip": "2602:fbaf:0:1::17"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-10-27T02:33:03.451446Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "96ca9488-bc91-40c6-8f7d-759263712b4b",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "62cae462-7057-4288-bca7-731e2dac9274",
+          "agent_name": "from-key-004c",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "fish-rhode.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "162e5abd-7066-4020-879e-239d7aaf2d69",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 2360,
+          "port_start": 2359,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-10-27T02:46:49.371664Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "86b953e6-2404-4322-94fa-65eba56a1b32",
+      "name": "Minecraft Bedrock",
+      "origin": {
+        "data": {
+          "agent_id": "62cae462-7057-4288-bca7-731e2dac9274",
+          "agent_name": "from-key-004c",
+          "local_ip": "127.0.0.1",
+          "local_port": 2359
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-bedrock"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
